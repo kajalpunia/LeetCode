@@ -12,8 +12,8 @@ public:
                       carry;            
             res.insert(res.begin(), (sum%2 + '0'));            
             carry = sum/2;             
-            --aBi;
-            --bBi;
+            aBi--;
+            bBi--;
         }        
         return res;
     }
