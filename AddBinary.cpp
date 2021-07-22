@@ -2,7 +2,7 @@ class Solution {
 public:
     string addBinary(string a, string b) 
     {
-        int aBi = a.length() - 1, bBi = b.length() - 1, carry = 0;
+        int aBi = a.length() - 1, bBi = b.length() - 1, carry = 0 ;
         string res = "";
         
         while(aBi >= 0 || bBi >= 0 || carry)
