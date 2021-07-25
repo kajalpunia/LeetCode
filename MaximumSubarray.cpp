@@ -9,6 +9,6 @@ public:
             max_so_far = max(nums[i], nums[i] + max_so_far);
             result = max(result, max_so_far);
         }
-        return result+1;
+        return result;
     }
 };
