@@ -10,7 +10,7 @@ public:
         for(auto x:m)
         {
            if(x.second>1)
-           return 1
+           return 1;
         }
      return 0;
     }
