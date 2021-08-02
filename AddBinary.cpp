@@ -10,7 +10,7 @@ public:
             int sum = ((aBi >= 0) ? a[aBi] - '0' : 0) + \
                       ((bBi >= 0) ? b[bBi] - '0' : 0) + \
                       carry;            
-            res.insert(res.begin(), (sum%2 + '0'));            
+            res.insert(res.begin(), (sum%2 +'0'));            
             carry = sum/2;             
             aBi--;
             bBi--;
